@@ -1,0 +1,10 @@
+<VirtualHost 127.0.0.1:80>
+#UWAMP Generate Virtual Host
+	DocumentRoot "D:\Website\repository\DD"
+	ServerName 127.0.0.1:80
+	ServerAlias "dragdrop"
+	<Directory "D:\Website\repository\DD">
+		AllowOverride All
+		Options FollowSymLinks Includes Indexes MultiViews 
+	</Directory>
+</VirtualHost>
